@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <!--Created with jdAppStreamEdit 7.1-->
   <id>dev.vencord.Vesktop</id>
-  <name>Vesktop</name>
+  <name>Milcord</name>
   <summary>Snappier Discord app with Vencord</summary>
   <developer_name>Vencord Contributors</developer_name>
   <launchable type="desktop-id">dev.vencord.Vesktop.desktop</launchable>
@@ -10,8 +10,8 @@
   <project_license>GPL-3.0</project_license>
   <project_group>Vencord</project_group>
   <description>
-    <p>Vesktop is a cross platform desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.</p>
-    <p>Vesktop comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
+    <p>Milcord is a cross platform desktop app aiming to give you a snappier Discord experience with Vencord pre-installed.</p>
+    <p>Milcord comes bundled with Venmic, a purpose-built library to provide functioning audio screenshare.</p>
   </description>
   <screenshots>
     <screenshot type="default">

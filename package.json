@@ -1,5 +1,5 @@
 {
-    "name": "vesktop",
+    "name": "Milcord",
     "version": "1.5.2",
     "private": true,
     "description": "",
@@ -62,7 +62,7 @@
     },
     "build": {
         "appId": "dev.vencord.vesktop",
-        "productName": "Vesktop",
+        "productName": "Milcord",
         "files": [
             "!*",
             "dist/js",
@@ -106,7 +106,7 @@
                 }
             ],
             "desktop": {
-                "Name": "Vesktop",
+                "Name": "Milcord",
                 "GenericName": "Internet Messenger",
                 "Type": "Application",
                 "Categories": "Network;InstantMessaging;Chat;",
