@@ -45,7 +45,7 @@ jobs:
                   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
             - name: List directory contents
-              run: ls -la /Users/runner/work/Milcord
+              run: ls -la /Users/runner/work/Milcord/Milcord
 
             - name: Run Electron Builder
               if: ${{ matrix.platform == 'mac' }}
