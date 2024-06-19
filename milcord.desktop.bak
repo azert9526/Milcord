@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Milcord
+Icon=~/.Milcord/static/icon.png
+Exec=~/.Milcord/Milcord
+Terminal=false
+Categories=Development;

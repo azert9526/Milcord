@@ -49,7 +49,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "staticTitle",
             title: "Static Title",
-            description: 'Makes the window title "Vesktop" instead of changing to the current page',
+            description: 'Makes the window title "Milcord" instead of changing to the current page',
             defaultValue: false
         },
         {
@@ -71,14 +71,14 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "tray",
             title: "Tray Icon",
-            description: "Add a tray icon for Vesktop",
+            description: "Add a tray icon for Milcord",
             defaultValue: true,
             invisible: () => isMac
         },
         {
             key: "minimizeToTray",
             title: "Minimize to tray",
-            description: "Hitting X will make Vesktop minimize to the tray instead of closing",
+            description: "Hitting X will make Milcord minimize to the tray instead of closing",
             defaultValue: true,
             invisible: () => isMac,
             disabled: () => Settings.store.tray === false
@@ -107,7 +107,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "checkUpdates",
             title: "Check for updates",
-            description: "Automatically check for Vesktop updates",
+            description: "Automatically check for Milcord updates",
             defaultValue: true
         }
     ],
@@ -122,7 +122,7 @@ const SettingsOptions: Record<string, Array<BooleanSetting | SettingsComponent>>
         {
             key: "openLinksWithElectron",
             title: "Open Links in app (experimental)",
-            description: "Opens links in a new Vesktop window instead of your web browser",
+            description: "Opens links in a new Milcord window instead of your web browser",
             defaultValue: false
         }
     ],
@@ -167,7 +167,7 @@ export default function SettingsUi() {
     return (
         <Forms.FormSection>
             <Text variant="heading-lg/semibold" style={{ color: "var(--header-primary)" }} tag="h2">
-                Vesktop Settings
+                Milcord Settings
             </Text>
 
             <SettingsSections />

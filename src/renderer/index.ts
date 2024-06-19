@@ -9,7 +9,7 @@ import "./appBadge";
 import "./patches";
 import "./themedSplash";
 
-console.log("read if cute :3");
+console.log("Ardeli");
 
 export * as Components from "./components";
 import { findByPropsLazy, onceReady } from "@vencord/types/webpack";
@@ -42,8 +42,8 @@ const customSettingsSections = (
 ).customSections;
 
 customSettingsSections.push(() => ({
-    section: "Vesktop",
-    label: "Vesktop Settings",
+    section: "Milcord",
+    label: "Milcord Settings",
     element: SettingsUi,
     className: "vc-vesktop-settings"
 }));
