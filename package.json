@@ -1,5 +1,5 @@
 {
-    "name": "Milcord",
+    "name": "milcord",
     "version": "1.5.2",
     "private": true,
     "description": "",
@@ -106,7 +106,6 @@
                 }
             ],
             "desktop": {
-                "Name": "Milcord",
                 "Name": "Milcord",
                 "GenericName": "Internet Messenger",
                 "Type": "Application",

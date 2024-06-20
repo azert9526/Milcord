@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cd ~/.Milcord
-
-source ~/.nvm/nvm.sh
-nvm use 18
-
-export PATH=~/.local/share/pnpm:$PATH
-pnpm start
